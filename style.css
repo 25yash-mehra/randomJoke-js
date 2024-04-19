@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  .main{
+    position: relative;
+  }
+  .chat{
+    width:500px;
+    height: 400px;
+    /* border: 3px solid rgb(0, 0, 0); */
+    box-shadow: 17px 16px 55px -13px;
+    border-radius: 20px;
+    position: absolute;
+    bottom:150px;
+    left: 430px;
+    backdrop-filter: blur(20px);
+    /* background-color: rgb(240, 54, 54,0.3); */
+  }
+  
+  #nextButn{
+  position: absolute;
+  top: 78%;
+  left: 36%;
+  }
+  
+  #nextButn,button{
+    padding: 10px 25px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: rgb(101, 248, 229);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  #nextButn:hover, button:hover {
+    background-color: yellow;
+    cursor: pointer;
+  }
+  
+  #jokes{
+    position: absolute;
+    top: 20%;
+    left: 8%;
+    font-family: cursive;
+    overflow: hidden;
+  }
